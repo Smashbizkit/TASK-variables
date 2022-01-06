@@ -32,7 +32,7 @@ const image= "https://pbs.twimg.com/media/FIVJOExXoAIFSVE.jpg";
  */
 
 const fullNameString = `My name is ${fullName}`;
-const yearOfBirthString =`I am ${2022-yearOfBirth}years old`;
+const yearOfBirthString =`I am ${2022-yearOfBirth} years old`;
 const hobbyString =`My hobby is ${hobby}`;
 
 
@@ -62,3 +62,4 @@ function decrementBy2() {
   // decrement stars by 2 👇🏻
   stars -=2
 }
+
