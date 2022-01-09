@@ -10,11 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-let fullName= "Abdulmohsen Alnouh"
-let yearOfBirth="1987"
-let hobby= "Reading"
-let funFact= "i know nothing about coding!"
-const image= "https://pbs.twimg.com/media/FIVJOExXoAIFSVE.jpg";
+let fullName = "Abdulmohsen Alnouh";
+let yearOfBirth ="1987";
+let hobby = "Read";
+let funFact = "i know nothing about coding!";
+const image = "https://pbs.twimg.com/media/FIVJOExXoAIFSVE.jpg";
 
 
 
@@ -32,10 +32,8 @@ const image= "https://pbs.twimg.com/media/FIVJOExXoAIFSVE.jpg";
  */
 
 const fullNameString = `My name is ${fullName}`;
-const yearOfBirthString =`I am ${2022-yearOfBirth} years old`;
-const hobbyString =`My hobby is ${hobby}`;
-
-
+const yearOfBirthString =`I am ${2022 - yearOfBirth} years old`;
+const hobbyString =`i like to ${hobby}`;
 
 
 /**
@@ -47,19 +45,19 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
-  stars++
+  stars++;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
-  stars--
+  stars--;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
-  stars +=2
+  stars +=2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
-  stars -=2
+  stars -=2;
 }
 
