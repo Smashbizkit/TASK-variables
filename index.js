@@ -11,9 +11,8 @@
 
 // Part 1 answer 👇🏻 ...
 let fullName = "Abdulmohsen Alnouh";
-let yearOfBirth ="1987";
-let hobby = "Read";
-let funFact = "i know nothing about coding!";
+let yearOfBirth = "1987";
+let hobby = "coding";
 const image = "https://pbs.twimg.com/media/FIVJOExXoAIFSVE.jpg";
 
 
@@ -30,10 +29,10 @@ const image = "https://pbs.twimg.com/media/FIVJOExXoAIFSVE.jpg";
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
-
 const fullNameString = `My name is ${fullName}`;
-const yearOfBirthString =`I am ${2022 - yearOfBirth} years old`;
-const hobbyString =`i like to ${hobby}`;
+const yearOfBirthString = `I am ${2022 - yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`;
+const funFact = "i love coding"
 
 
 /**
